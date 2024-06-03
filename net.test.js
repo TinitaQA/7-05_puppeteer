@@ -41,7 +41,6 @@ describe("Ticket purchase tests", () => {
   }, 40000);
 
   test("Бронирование неактивных мест", async () => {
-    //await clickElement(page, "a:nth-child(2)");
     await clickElement(
       page,
       ".movie-seances__time[href='#'][data-seance-id='199']"
